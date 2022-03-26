@@ -20,7 +20,8 @@ echo "Checking for newer files online first"
 git pull
 
 
-sh x86_64/update.sh
+cd x86_64
+sh update.sh
 
 
 # Below command will backup everything inside the project folder
